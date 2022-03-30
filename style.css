@@ -1,0 +1,96 @@
+h1 {
+color: black;
+
+text-align: center;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+main {
+	text-align: center;
+}
+
+section {
+	display: inline-block;
+	
+}
+
+.box {
+	position: relative;
+  background-color: dimgrey;
+  border: 2px solid black;
+  width: 300px;
+  height: 160px;
+  margin-top: 30px;
+  overflow: auto;
+  text-align: left;
+  margin: 18px;
+
+ 
+}
+
+.content {
+
+	padding: 40px 10px 10px 10px;
+
+}
+
+p {
+position: absolute;
+top: -2px;
+right: -2px;
+background-color: orangered;
+border: 2px solid black;
+width: 100px;
+height: 25px;
+text-align: center;
+text-anchor: middle;
+font-weight: bold;
+
+}
+
+#p2 {
+
+	background-color: palevioletred;
+	color: white;
+
+}
+
+#p3 {
+
+	background-color: yellowgreen;
+}
+
+@media (max-width: 767px) {
+  
+  .box {
+  	width:  96%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+#three {
+	text-align: center;
+
+}
+
+#three .box {
+width: 100%;
+display: block;
+margin: 0px auto;
+max-width: 641px;
+}
+
+ }
+
+
+
+
